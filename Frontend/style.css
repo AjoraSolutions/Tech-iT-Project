@@ -30,6 +30,7 @@
      background-color: #0638c0;
  }
 
+/*****************************navbar*************************  */
  nav {
      position: relative;
      display: flex;
@@ -102,6 +103,7 @@
      transform: translateX(4px);
  }
 
+/************************nav end  */
 
 
  .left-section {
