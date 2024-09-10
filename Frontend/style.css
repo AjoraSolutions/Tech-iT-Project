@@ -179,7 +179,10 @@
      font-weight: 100;
      font-style: normal;
  }
-
+ 
+ html{
+    scroll-behavior: smooth;
+ }
  .container {
      color: #fff;
  }
@@ -199,7 +202,8 @@
  }
 
  nav {
-     position: relative;
+     position: sticky;
+     top: 0;
      display: flex;
      align-items: center;
      justify-content: space-between;
