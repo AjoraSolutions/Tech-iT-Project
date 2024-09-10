@@ -400,6 +400,45 @@
     font-weight: 300;
 }
 
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  left: -250px; /* Hidden by default */
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: left 0.3s ease;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Active Sidebar (Visible) */
+.sidebar.active {
+  left: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .more-info-head h1 {
